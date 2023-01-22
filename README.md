@@ -16,9 +16,9 @@
     return: строка с кодом цвета
     raises: Index error
     examples:
-    >>>lighten('#000000, 100')
+    >>> lighten('#000000, 100')
         #FFFFFF
-    >>>lighten('#1A1B19, 36')
+    >>> lighten('#1A1B19, 36')
         #232422
     """
     
@@ -36,8 +36,8 @@
     return: строка с кодом цвета
     raises: Index error
     examples:
-    >>darken('#FFFFFF, 100')
+    >>> darken('#FFFFFF, 100')
         #000000
-    >>darken('#1A1B19, 36')
+    >>> darken('#1A1B19, 36')
         #111210
     """
