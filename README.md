@@ -14,7 +14,7 @@
 
     param color, percent: код цвета, процент осветления
     return: строка с кодом цвета
-    raises:Index error
+    raises: Index error
     examples:
     >>>lighten('#000000, 100')
         #FFFFFF
@@ -34,7 +34,7 @@
 
     param color, percent: код цвета, процент затемнения
     return: строка с кодом цвета
-    raises:Index error
+    raises: Index error
     examples:
     >>darken('#FFFFFF, 100')
         #000000
